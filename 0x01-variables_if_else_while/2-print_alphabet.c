@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'Prints alphabets in lowercase'
- * Reaturn: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		putchar("%c ch \n")
 	}
 			return (0);
 }
