@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * Main - prints alpha in lowercase
+ * print_alphabet_x10 - prints alpha in lowercase
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char alpha;
 	int t;
@@ -11,6 +11,6 @@ void print_alphabet_x10(void);
 	{
 		for (alpha = 'a'; alpha <= 'z'; alpha++)
 			_putchar(alpha);
+		_putchar('\n');
 	}
-_putchar('\n');
 }

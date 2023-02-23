@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * main - Print _putchar
- * written by Bis
- * return: 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
